@@ -1,9 +1,6 @@
 FROM debian:latest
 MAINTAINER kristjan.perlaska <kristjan.perlaska@swisscom.com>
 
-ENV http_proxy http://proxy.corproot.net:8079
-ENV https_proxy http://proxy.corproot.net:8079
-
 RUN apt-get update && apt-get upgrade -y
 
 RUN apt-get install -y build-essential \
