@@ -34,6 +34,6 @@ WORKDIR /locust
 
 ADD locustfile.py /locust
 
-EXPOSE 8089 5557 5558
+EXPOSE 8089 5557 5558 80 
 
-ENTRYPOINT /usr/local/bin/locust --host=$host --$type $masterip -P 80 -L DEBUG --print-stats
+ENTRYPOINT /usr/local/bin/locust --host=$host --$type $masterip -P 80 --print-stats
