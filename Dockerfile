@@ -1,10 +1,11 @@
 FROM debian:latest
 MAINTAINER kristjan.perlaska <kristjan.perlaska@swisscom.com>
 
-ENV http_proxy http://proxy.corproot.net:8079
-ENV https_proxy http://proxy.corproot.net:8079
+ENV type "" 
 
+ENV masterip ""
 
+ENV host https://www.staging.swisscom.ch
 
 RUN apt-get update && apt-get upgrade -y
 
@@ -35,4 +36,4 @@ ADD locustfile.py /locust
 
 EXPOSE 8089 5557 5558
 
-ENTRYPOINT ["/usr/local/bin/locust"]
+ENTRYPOINT /usr/local/bin/locust --host=$host --$type $masterip
