@@ -8,6 +8,11 @@ def global_en_home(l):
     urls.add('/global/en/investment-excellence/research/')
     urls.add('https://www-uat.juliusbaer.com/global/en/discover-julius-baer/corporate-information/facts-figures/')
     urls.add('https://www-uat.juliusbaer.com/group/en/financial-information/financial-reporting/')
+    urls.add('https://www-uat.juliusbaer.com/global/en/investment-excellence/research/cio-house-view/')
+    urls.add('https://www-uat.juliusbaer.com/global/en/visionary-thinking/fia-formula-e-championship/video-gallery/')
+    urls.add('https://www-uat.juliusbaer.com/global/en/menus/footer/rss-feed/')
+    urls.add('https://www-uat.juliusbaer.com/group/en/investors/')
+    urls.add('https://www-uat.juliusbaer.com/group/en/financial-information/key-figures/')
 
 
     headers = {
