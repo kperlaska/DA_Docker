@@ -6,6 +6,8 @@ def global_en_home(l):
     urls = set()
     urls.add('/global/en/home/')
     urls.add('/global/en/investment-excellence/research/')
+    urls.add('https://www-uat.juliusbaer.com/global/en/discover-julius-baer/corporate-information/facts-figures/')
+    urls.add('https://www-uat.juliusbaer.com/group/en/financial-information/financial-reporting/')
 
 
     headers = {
@@ -50,5 +52,5 @@ class UserBehavior(TaskSet):
 
 class WebsiteUser(HttpLocust):
     task_set = UserBehavior
-
-
+    min_wait = 3000 
+    max_wait = 8000 
