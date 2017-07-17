@@ -8,8 +8,6 @@ def global_en_home(l):
     urls.add('/global/en/visionary-thinking/fia-formula-e-championship/video-gallery/')
     urls.add('/global/en/menus/footer/rss-feed/')
     urls.add('/group/en/investors/')
-    urls.add('/group/en/financial-information/key-figures/')
-    urls.add('/global/en/discover-julius-baer/gen-y/')
 
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
