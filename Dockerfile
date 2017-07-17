@@ -38,7 +38,8 @@ RUN mkdir /locust
 WORKDIR /locust
 
 ADD locustfile.py /locust
+ADD bjb.pem /locust
 
 EXPOSE 8089 5557 5558 80 
 
-ENTRYPOINT /usr/local/bin/locust --host=$host $type $masterip $user $hatchrate -P 80
+ENTRYPOINT /usr/local/bin/locust --host=$host $type $masterip $user $hatchrate -P 80 &> /dev/null
