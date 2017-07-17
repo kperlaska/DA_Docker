@@ -8,8 +8,6 @@ def global_en_home(l):
     urls.add('/careers/en/home/')
     urls.add('/careers/en/experienced-professionals/why-work-with-us/employee-benefits/')
     urls.add('/careers/en/apprentices-in-switzerland/applying/instructions-for-a-successful-application/')
-    urls.add('/global/en/investment-excellence/research/wealth-report-europe/')
-    urls.add('/index.php?eID=dumpFile&t=f&f=12188&token=59c3feae750525339725045e56e65147b194be8a')
 
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
