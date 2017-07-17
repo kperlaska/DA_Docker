@@ -15,8 +15,6 @@ def global_en_home(l):
     urls.add('/global/en/menus/footer/rss-feed/')
     urls.add('/group/en/investors/')
     urls.add('/group/en/financial-information/key-figures/')
-    urls.add('/global/en/discover-julius-baer/gen-y/')
-    urls.add('/global/en/discover-julius-baer/gen-y/gen-y-investment-workshop/')
 
 
     headers = {
