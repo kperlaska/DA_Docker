@@ -10,12 +10,6 @@ def global_en_home(l):
     urls.add('/group/en/financial-information/financial-reporting/')
     urls.add('/group/en/menus/services/contacts/')
     urls.add('/global/en/services-solutions/open-product-service-platform/wealth-planning/')
-    urls.add('/global/en/investment-excellence/research/cio-house-view/')
-    urls.add('/global/en/visionary-thinking/fia-formula-e-championship/video-gallery/')
-    urls.add('/global/en/menus/footer/rss-feed/')
-    urls.add('/group/en/investors/')
-    urls.add('/group/en/financial-information/key-figures/')
-
 
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
