@@ -17,10 +17,6 @@ def global_en_home(l):
     urls.add('/group/en/financial-information/key-figures/')
     urls.add('/global/en/discover-julius-baer/gen-y/')
     urls.add('/global/en/discover-julius-baer/gen-y/gen-y-investment-workshop/')
-    urls.add('/careers/en/home/')
-    urls.add('/careers/en/experienced-professionals/why-work-with-us/employee-benefits/')
-    urls.add('/careers/en/apprentices-in-switzerland/applying/instructions-for-a-successful-application/')
-    urls.add('/global/en/investment-excellence/research/wealth-report-europe/')
 
 
     headers = {
