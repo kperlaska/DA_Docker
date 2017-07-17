@@ -38,7 +38,6 @@ RUN mkdir /locust
 WORKDIR /locust
 
 ADD locustfile.py /locust
-ADD bjb.pem /locust
 
 EXPOSE 8089 5557 5558 80 
 
