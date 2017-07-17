@@ -4,12 +4,10 @@ import random
 
 def global_en_home(l):
     urls = set()
-    urls.add('/global/en/home/')
-    urls.add('/global/en/investment-excellence/research/')
-    urls.add('/global/en/discover-julius-baer/corporate-information/facts-figures/')
-    urls.add('/group/en/financial-information/financial-reporting/')
-    urls.add('/group/en/menus/services/contacts/')
-    urls.add('/global/en/services-solutions/open-product-service-platform/wealth-planning/')
+    urls.add('/group/en/financial-information/key-figures/')
+    urls.add('/global/en/discover-julius-baer/gen-y/')
+    urls.add('/global/en/investment-excellence/research/wealth-report-europe/')
+    urls.add('/index.php?eID=dumpFile&t=f&f=12188&token=59c3feae750525339725045e56e65147b194be8a')
 
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
